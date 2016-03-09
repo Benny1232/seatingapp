@@ -1,0 +1,50 @@
+.row {
+  display:flex;
+  flex-direction:row;
+  width: 150px;
+  height: 40px;
+  justify-content:space-around;
+}
+.seat {
+  height:20px;
+  width:20px;
+  padding:4px;
+}
+.open {
+  background-color: green;
+}
+
+.taken {
+  background-color: red;
+}
+
+.reserved {
+  background-color: orange;
+}
+
+#message {
+  width: 150px;
+  height: 40px;
+}
+
+.takenMsg {
+  border: 2px solid darkred;
+  background-color: red;
+  color: white;
+  font-weight:bold;
+}
+
+.reservedMsg {
+  border: 2px solid darkorange;
+  background-color: orange;
+  color: black;  
+  font-weight:bold;
+}
+
+.openMsg {
+  border: 2px solid darkgreen;
+  background-color: green;
+  color: white;
+  font-weight:bold;
+  
+}
